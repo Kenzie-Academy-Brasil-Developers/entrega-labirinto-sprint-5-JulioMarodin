@@ -1,0 +1,53 @@
+body {
+    /* height: 100vh; */
+}
+
+#texto {
+    text-align: center;
+}
+
+.display {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 29%;
+    /* transform: rotate(-90deg); */
+}
+
+.caminho {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.parede {
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+}
+
+.inicio {
+    /* background-color: red; */
+    width: 25px;
+    height: 25px;
+    /* background-image: url(./img/nicolas-cage-gq.jpg); */
+}
+
+.final {
+    background-color: blueviolet;
+    width: 25px;
+    height: 25px;
+}
+
+.nick {
+    background-color: aquamarine;
+    height: 25px;
+    background-image: url(./img/nicolas-cage-gq.jpg);
+}
