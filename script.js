@@ -19,7 +19,7 @@ const map = [
 let labirinto = document.getElementById('labirinto');
 labirinto.classList.add('labirinto');
 
-function criaCaminho(arr) {
+function createPath(arr) {
 
     for(let linha = 0; linha < arr.length; linha++) {
         let divLinha = document.createElement('div');
@@ -42,7 +42,7 @@ function criaCaminho(arr) {
     }
 }
 
-criaCaminho(map);
+createPath(map);
 
 let nick = document.createElement('div')
 nick.classList.add('nick')

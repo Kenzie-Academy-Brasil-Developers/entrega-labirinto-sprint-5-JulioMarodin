@@ -47,7 +47,6 @@ section {
 }
 
 .nick {
-    background-color: aquamarine;
     height: 25px;
-    background-image: url(./img/nicolas-cage-gq.jpg);
+    background-image: url(./img/nickCage.jpg);
 }
